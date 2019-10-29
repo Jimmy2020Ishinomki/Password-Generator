@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+ 
+    </head>
+
+    <body>
+       
+        
+        <div class="container">
+
+            <p class="boxName">Site</p>
+            <p><input type="text"></p>
+
+
+            <p class="boxName"><input type="checkbox" id="acountCheck">Acount</p>
+            <p><input type="text" id="acountText"></p>
+
+
+            <p class="boxName"><input type="checkbox" id="mailAdressCheck">Mail Adress</p>
+
+            <form name="form1" action="">
+
+                <select id="select1">
+                    <option> ~~~~~~Select Mail Adress~~~~~~ </option>
+                    <option>mailAdress1</option>
+                    <option>mailAdress2</option>
+                    <option>mailAdress3</option>
+                    <option>mailAdress4</option>
+                    <option>mailAdress5</option>
+                    <option>mailAdress6</option>
+                    <option>mailAdress7</option>
+                    <option>mailAdress8</option>
+                    <option>"  "</option>
+                </select>
+
+            </form>
+
+        
+            <p class="boxName">Password</p>
+            <p><input type="text" id="result"></p>
+
+
+            <p><div id="btn">Genarate Password</div></p>
+
+
+            <fieldset>
+                <legend>Optoins</legend>
+                <p>Length (<span id="label">8</span>): <input type="range" id="slider" value="8" min="4" max="20"></p>
+                <p>
+                Numbers?: <input type="checkbox" id="numbers" checked>
+                Symbols?: <input type="checkbox" id="symbols">
+                </p>
+            </fieldset>
+
+
+            
+            
+
+            <input id="btn2" type="button" value="Screen Shot" onclick="screenShot();"/>
+            
+
+        </div>
+
+
+        <!--container-->
+        <script src="main.js"></script>
+
+
+
+    </body>
+
+
+</html>
